@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bMPupz" name="PhaseAdam" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="XD Makes Music"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginWantsMidiIn"
+              pluginManufacturerCode="Xdmm" pluginCode="Opa4">
+  <MAINGROUP id="gYAk4J" name="PhaseAdam">
+    <GROUP id="{11152977-E4DD-B3B2-DDD8-C827FA234F24}" name="Source">
+      <FILE id="ElGSjM" name="WaveformVisualiser.cpp" compile="1" resource="0"
+            file="Source/WaveformVisualiser.cpp"/>
+      <FILE id="tF5A7Y" name="WaveformVisualiser.h" compile="0" resource="0"
+            file="Source/WaveformVisualiser.h"/>
+      <FILE id="ytggyC" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="aNOiw5" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="fcY56z" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="AXuvBP" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="vXkNm6" name="Controls.cpp" compile="1" resource="0" file="Source/Controls.cpp"/>
+      <FILE id="V1V9Pv" name="Controls.h" compile="0" resource="0" file="Source/Controls.h"/>
+      <FILE id="zlfETm" name="DSP.h" compile="0" resource="0" file="Source/DSP.h"/>
+      <FILE id="G7ZLZt" name="PluginParameters.h" compile="0" resource="0"
+            file="Source/PluginParameters.h"/>
+      <FILE id="J4Gx6m" name="LookAndFeel.h" compile="0" resource="0" file="Source/LookAndFeel.h"/>
+      <GROUP id="{4A6ED4A9-1172-AAC6-6B7E-955563339FE7}" name="XDDSP">
+        <FILE id="t1zbzP" name="XDDSP.cpp" compile="1" resource="0" file="Source/XDDSP/XDDSP.cpp"/>
+        <FILE id="BhSbvI" name="XDDSP.h" compile="0" resource="0" file="Source/XDDSP/XDDSP.h"/>
+        <FILE id="mgJrRU" name="XDDSP_Analysis.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Analysis.h"/>
+        <FILE id="blzfNS" name="XDDSP_BiquadKernel.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_BiquadKernel.h"/>
+        <FILE id="jzEYhM" name="XDDSP_Blep.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Blep.h"/>
+        <FILE id="kpSN4q" name="XDDSP_CircularBuffer.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_CircularBuffer.h"/>
+        <FILE id="yi1nvG" name="XDDSP_Classes.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Classes.h"/>
+        <FILE id="tuDFh9" name="XDDSP_Delay.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Delay.h"/>
+        <FILE id="j86MT1" name="XDDSP_Envelopes.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Envelopes.h"/>
+        <FILE id="z4qnLQ" name="XDDSP_FFT.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_FFT.h"/>
+        <FILE id="n6fVWY" name="XDDSP_Filters.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Filters.h"/>
+        <FILE id="yzA5Uu" name="XDDSP_FIRImpulses.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_FIRImpulses.h"/>
+        <FILE id="vjC29c" name="XDDSP_Functions.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Functions.h"/>
+        <FILE id="TVYOBD" name="XDDSP_Inputs.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Inputs.h"/>
+        <FILE id="Jxhj0P" name="XDDSP_LinkwitzRileyKernel.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_LinkwitzRileyKernel.h"/>
+        <FILE id="UDukvn" name="XDDSP_Mixing.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Mixing.h"/>
+        <FILE id="wdp592" name="XDDSP_Monitors.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Monitors.h"/>
+        <FILE id="O8AbjU" name="XDDSP_Noise.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Noise.h"/>
+        <FILE id="zMXnAh" name="XDDSP_Oscillators.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Oscillators.h"/>
+        <FILE id="gxknl4" name="XDDSP_Parameters.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Parameters.h"/>
+        <FILE id="qz9YCI" name="XDDSP_PiecewiseEnvelopeData.h" compile="0"
+              resource="0" file="Source/XDDSP/XDDSP_PiecewiseEnvelopeData.h"/>
+        <FILE id="ztzDvA" name="XDDSP_Polyphony.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Polyphony.h"/>
+        <FILE id="mUfEt7" name="XDDSP_Types.h" compile="0" resource="0" file="Source/XDDSP/XDDSP_Types.h"/>
+        <FILE id="Em98KS" name="XDDSP_Utilities.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Utilities.h"/>
+        <FILE id="IURz4v" name="XDDSP_Waveshaper.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_Waveshaper.h"/>
+        <FILE id="cboaxA" name="XDDSP_WindowFunctions.h" compile="0" resource="0"
+              file="Source/XDDSP/XDDSP_WindowFunctions.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PhaseAdam"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PhaseAdam"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PhaseAdam"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PhaseAdam"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PhaseAdam"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PhaseAdam"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
