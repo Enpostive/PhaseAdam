@@ -415,6 +415,7 @@ void PhaseAdamAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, ju
  dsp.signalIn.connectFloats({buffer.getWritePointer(0), buffer.getWritePointer(1)}, buffer.getNumSamples());
  dsp.process(0, buffer.getNumSamples());
  dsp.signalOut.fastTransfer<float>({buffer.getWritePointer(0), buffer.getWritePointer(1)}, buffer.getNumSamples());
+ dsp.poly.advanceMidiEvents(buffer.getNumSamples());
 }
 
 void PhaseAdamAudioProcessor::processMIDI (juce::MidiBuffer &midiMessages)
