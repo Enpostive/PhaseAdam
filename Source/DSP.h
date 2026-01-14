@@ -153,7 +153,7 @@ public:
  Counter<ControlConstant<>, ControlConstant<>, ControlConstant<>> playPositionCntr;
  
 #define PLAYPOSITIONFANOUT_IN playPositionCntr.counterOut
- ChannelPicker<decltype(PLAYPOSITIONFANOUT_IN), 1, 0, Count> playPositionFanOut;
+ ChannelPicker<decltype(PLAYPOSITIONFANOUT_IN), 0, Count> playPositionFanOut;
  
 #define PLAYHEAD_IN playPositionFanOut
  SamplePlaybackHead<decltype(playPositionFanOut), SampleType, Count> playhead;
